@@ -12,7 +12,6 @@ class Carousel {
   }
 
   switchIndex(idx) {
-    console.log(idx);
     if(idx < 0) {
       this.displayedIndex = this.imgList.length - 1;
     } else if (idx > this.imgList.length - 1) {
